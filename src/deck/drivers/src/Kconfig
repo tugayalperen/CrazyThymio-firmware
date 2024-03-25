@@ -373,7 +373,7 @@ config DECK_LOCO_2D_POSITION
 config DECK_LOCO_2D_POSITION_HEIGHT
     string "The height (Z) that the tag will be located at"
     depends on DECK_LOCO_2D_POSITION
-    default 1.2
+    default 0.07
 
 config DECK_MULTIRANGER
     bool "Support the Multi-ranger deck"

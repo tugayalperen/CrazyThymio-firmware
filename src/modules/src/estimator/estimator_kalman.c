@@ -223,8 +223,8 @@ static void kalmanTask(void* parameters) {
       resetEstimation = false;
     }
 
-    bool quadIsFlying = supervisorIsFlying();
-
+//    bool quadIsFlying = supervisorIsFlying();
+      bool quadIsFlying = true;
   #ifdef KALMAN_DECOUPLE_XY
     kalmanCoreDecoupleXY(&coreData);
   #endif
